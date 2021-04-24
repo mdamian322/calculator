@@ -1,7 +1,7 @@
 # Calculator App for QA Testing
 
 Welcome! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-With that it comes with the [Jest testing framework](https://jestjs.io/) built in. We will be using that to practice unit testing. For testing automated testing I've added [Cypress](https://www.cypress.io/). 
+With that it comes with the [Jest testing framework](https://jestjs.io/) built in. We will be using that to practice unit testing. For testing automated testing [Cypress](https://www.cypress.io/) was added. 
 
 ## Setup
 1. Make sure [Node.js](https://nodejs.org/en/) is installed on your computer. You can download that [here](https://nodejs.org/en/download/) and make sure to select the right one for Windows or Mac.
