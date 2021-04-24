@@ -30,7 +30,7 @@ Launches the test runner to run all the unit tests in the `__tests__` folder
 Launches Cypress so you can run the automated tests
 
 
-## Challenge: Add additional tests for Calculator
+## Challenge: Add additional tests
 I would love for you to add additional tests for practice! Feel free to make a Pull Request (PR) with any tests you add and I'll be more than happy to take a look or answer any questions! 
 
 To make a Pull Request:
