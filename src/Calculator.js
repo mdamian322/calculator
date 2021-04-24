@@ -69,7 +69,7 @@ function Calculator() {
             Subtract
           </button>
           <button onClick={() => {
-              setOperationType('multiply')
+              setOperationType('subtract')
               setSymbol('x')
               setResult(0)
             }}
