@@ -31,6 +31,8 @@ Launches the test runner to run all the unit tests in the `__tests__` folder. Yo
 
 Launches Cypress so you can run the automated tests
 
+**NOTE:** You have to have the app running in order to run these tests, so make sure you have done `yarn start` in a separate terminal tab/window before doing this.
+
 
 ## Challenge: Add additional tests
 I would love for you to add additional tests for practice! Feel free to make a Pull Request (PR) with any tests you add and I'll be more than happy to take a look or answer any questions! 
