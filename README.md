@@ -25,7 +25,7 @@ The page will reload if you make changes.
 
 Launches the test runner to run all the unit tests in the `__tests__` folder
 
-### `yarn run cypress`
+### `yarn run cypress open`
 
 Launches Cypress so you can run the automated tests
 
