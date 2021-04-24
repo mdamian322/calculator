@@ -5,13 +5,14 @@ With that it comes with the [Jest testing framework](https://jestjs.io/) built i
 
 ## Setup
 1. Make sure [Node.js](https://nodejs.org/en/) is installed on your computer. You can download that [here](https://nodejs.org/en/download/) and make sure to select the right one for Windows or Mac.
-2. Clone the project to your computer. I would do this in the folder where you are putting your Tech Moms projects, so make sure you have `cd`d into that before running this.
+2. Clone the project to your computer. I would do this in the folder where you are putting your Tech Moms projects, so make sure you `cd` into that before running this. It should then prompt you for your password.
 ```
 git clone https://github.com/mdamian322/calculator.git
 ```
 3. Do `cd calculator` to get into the project folder
-4. Run `npm install` to install all the dependencies needed for this project like Cypress, etc.
+4. Run `yarn install` to install all the dependencies needed for this project like Cypress, etc.
 
+**NOTE:** If you are getting a `yarn command not found` error message when doing that, you will need to install yarn (although it should have already been included in the project so hopefully this doesn't happen for you). To do that you do `npm install --global yarn`. When doing this you may get a `Missing write access` error or something like that so you will need to do `sudo chown -R $USER /usr/local/lib/node_modules` first and then try `npm install --global yarn` again. [Here's the explanation](https://flaviocopes.com/npm-fix-missing-write-access-error/) for fixing the "Missing write access" error. To know if it installed successfully you can do `yarn --version` and it should return the version number.
 
 ## Scripts for developing
 
@@ -24,7 +25,7 @@ The page will reload if you make changes.
 
 ### `yarn test`
 
-Launches the test runner to run all the unit tests in the `__tests__` folder
+Launches the test runner to run all the unit tests in the `__tests__` folder. You can also do `yarn test a` to run all tests.
 
 ### `yarn run cypress open`
 
