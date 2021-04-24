@@ -9,7 +9,8 @@ With that it comes with the [Jest testing framework](https://jestjs.io/) built i
 ```
 git clone https://github.com/mdamian322/calculator.git
 ```
-3. Run `yarn install` to install all the dependencies needed for this project like Cypress, etc.
+3. Do `cd calculator` to get into the project folder
+4. Run `yarn install` to install all the dependencies needed for this project like Cypress, etc.
 
 
 ## Scripts for developing
