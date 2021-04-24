@@ -11,8 +11,6 @@ git clone https://github.com/mdamian322/calculator.git
 ```
 3. Run `yarn install` to install all the dependencies needed for this project like Cypress, etc.
 
-You should now be set to develop!
-
 
 ## Scripts for developing
 
