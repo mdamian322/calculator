@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Calculator App for QA Testing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome! This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+With that it comes with the [Jest testing framework](https://jestjs.io/) built in. We will be using that to practice unit testing. For testing automated testing I've added [Cypress](https://www.cypress.io/). 
 
-## Available Scripts
+## Setup
+1. Make sure [Node.js](https://nodejs.org/en/) is installed on your computer. You can download that [here](https://nodejs.org/en/download/) and make sure to select the right one for Windows or Mac.
+2. Clone the project to your computer. I would do this in the folder where you are putting your Tech Moms projects, so make sure you have `cd`d into that before running this.
+```
+git clone https://github.com/mdamian322/calculator.git
+```
+3. Run `yarn install` to install all the dependencies needed for this project like Cypress, etc.
 
-In the project directory, you can run:
+You should now be set to develop!
+
+
+## Scripts for developing
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will reload if you make changes.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner to run all the unit tests in the `__tests__` folder
 
-### `yarn build`
+### `yarn run cypress`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Launches Cypress so you can run the automated tests
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Challenge: Add additional tests for Calculator
+I would love for you to add additional tests for practice! Feel free to make a Pull Request (PR) with any tests you add and I'll be more than happy to take a look or answer any questions! 
 
-### `yarn eject`
+To make a Pull Request:
+1. Make a new branch off of `main` by doing `git checkout -b your_name_branch`. This just makes a new branch that is a copy of `main`. Make sure you do `git pull` before doing this to make sure you have the most recent changes from `main`.
+2. Make your changes and then commit them to your branch.
+- This adds all of the files you changed to be saved/commited
+```
+git add -A
+```
+ -  This saves/commits your changes to the files so you don't loose them locally with your message being in the ""
+ ```
+git commit -m "added tests"
+```
+3. Push your changes so they show up [here](https://github.com/mdamian322/calculator/pulls) under pull requests
+```
+git push
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Resources
+- [Cypress commands](https://docs.cypress.io/api/table-of-contents)
+- [Jest docs](https://jestjs.io/docs/getting-started)
+- Get paid to do user testing with [User Testing](https://www.usertesting.com/)
+- To learn React, check out the [React documentation](https://reactjs.org/).
